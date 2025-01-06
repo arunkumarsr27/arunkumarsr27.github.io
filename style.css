@@ -1,0 +1,242 @@
+/* Introduction Section */
+#introduction {
+    background-color: #F8FAFC;
+}
+  
+#introduction .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+#introduction .container div h1 {
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#introduction .domain .engineer {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+
+#introduction .domain .engineer img.laptop {
+    margin-right: 8px;
+}
+
+#introduction .container div > p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    margin-top: 0px;
+}
+
+/* Resume */
+
+#resume {
+    background-color: #D9EAFD;
+}
+  
+#resume .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#resume .container .hello {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#resume .container .hello > h3 {
+    margin-bottom: 10px;
+    margin-top: 8px;
+}
+
+#resume .container .work {
+    text-align: center;
+}
+
+#resume .container .work > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+/* Skills */
+
+#skills {
+background-color: #F4F6FF;
+}
+
+#skills .container {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#skills .row {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#skills .row img {
+    background-color: #D9EAFD;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#skills.technical h3 {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#skills.row.technical .desc {
+    display: flex;
+    justify-content: center;
+}
+
+#skills.row p {
+    float: left;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#skills.technical {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* About Me */
+
+#aboutme {
+    background-color: #D9EAFD;
+}
+
+#aboutme .container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+#aboutme .container h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#aboutme .container p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+#aboutme .container div {
+    margin-top: 20px;
+}
+
+#aboutme .container a {
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border: none;
+    background-color: black;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+}
+
+#aboutme .container a:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-weight: bold;
+}
+
+/* Contact Me */
+
+#contactme {
+    background-color: #F4F6FF;
+}
+
+#contactme .container {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 60px;
+}
+
+#contactme .container a {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#contactme .container p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+#contactme .container a img {
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#contactme .container a img:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 576px) {
+    #skills .row {
+      display: grid;
+      grid-template-columns: auto;
+    }
+  
+    #skills .technical {
+      padding-left: 20px;
+    }
+  
+    #skills .container {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    #introduction .container div h1 {
+      font-size: 2rem;
+    }
+  
+    #introduction .domain .engineer {
+      font-size: 1.2rem;
+    }
+}
+  
